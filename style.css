@@ -6,15 +6,19 @@
 }
 
 a {
-    color: rgb(59, 59, 59);
+    color: rgb(86, 86, 86);
     text-decoration: none;
+}
+
+li {
+        list-style-type: none;
 }
 
 .sectionhome {
     margin-top: 180px;
 }
 .footerhome {
-    margin-top: 180px;
+    margin-top: 150px;
 }
 
 .tituloHome {
@@ -27,4 +31,21 @@ a {
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.descripAbout {
+    font-size: 24px;
+    background-color: rgba(228, 228, 228, 0.406);
+    color: rgb(76, 192, 198);
+    margin-top: 50px;
+}
+.autorAbout {
+    background-color: rgba(228, 228, 228, 0.406);
+    color: rgb(76, 192, 198);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.tituloabout {
+    margin-top: 50px;
+    color: rgb(55, 55, 54);
 }
