@@ -10,11 +10,20 @@ body {
     background-color: white;
 }
 
-.imagen {
+.imagenHome {
     width: 75%;
     height: 100vh;
     float: right;
-    background-image: url("about.jpg");
+    background-image: url("./home.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imagenAbout {
+    width: 75%;
+    height: 100vh;
+    float: right;
+    background-image: url("./about.jpg");
     background-size: cover;
     background-position: center;
 }
